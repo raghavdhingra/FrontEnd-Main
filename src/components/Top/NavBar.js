@@ -6,7 +6,7 @@ import Logo from '../../Image/GTBITlogo.png'
 
 function NavBar() {
     return (
-        <Container fluid style={{ background: "#edf0f3" }}>
+        <Container fluid style={{ background: "#343a40" }}>
         <Navbar bg="dark" variant="dark" expand="md" sticky="top">
   <Navbar.Brand href="#home">
   <img
