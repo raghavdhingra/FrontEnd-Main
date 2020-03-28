@@ -13,9 +13,9 @@ class Routes extends Component {
         <TopBar/>
         <MiddleBar/>
         <NavBar/>
-        <h3>Routes Body
+        <h1 className="red">Routes Body
         
-        </h3>
+        </h1>
         <MainFooter/>
         <BottomFooter/>
         </div>

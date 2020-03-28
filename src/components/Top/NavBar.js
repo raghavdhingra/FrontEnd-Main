@@ -3,17 +3,18 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { Container, NavDropdown, FormControl, Form, Button} from "react-bootstrap";
 import Logo from '../../Image/GTBITlogo.png'
+import style from './navbar.module.css'
 
 function NavBar() {
     return (
-        <Container fluid style={{ background: "#343a40" }}>
-        <Navbar bg="dark" variant="dark" expand="md" sticky="top">
+        <Container fluid style={{ background: "#1a73e8" }}>
+        <Navbar style={{ background: "#1a73e8" }} variant="dark" expand="md" sticky="top">
   <Navbar.Brand href="#home">
   <img
         src={Logo}
         width="40"
         height="40"
-        className="d-inline-block align-top"
+        className={"d-inline-block align-top "+style.navimg}
         alt="React Bootstrap logo"
       />
   </Navbar.Brand>

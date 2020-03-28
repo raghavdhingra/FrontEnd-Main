@@ -6,7 +6,7 @@ import { GoLink } from "react-icons/go";
 
 function MainFooter() {
     return (
-        <Container fluid className="bg-dark">
+        <Container fluid className="bg-dark" >
         <Row className=" my-2 justify-content-center">
             <Col sm="8" xs="12" className="border border-secondary text-center text-danger my-2">
                Something about GTBIT should be written here...
@@ -80,6 +80,11 @@ function MainFooter() {
                 </Row>
                </Col>
            </Row> 
+        <Row className=" my-2 justify-content-center">
+            <Col sm="8" xs="12" className="border border-secondary text-center text-white my-2">
+             Copyright Disclaimer contetnt here
+            </Col>
+        </Row>
         </Container>
     )
 }
