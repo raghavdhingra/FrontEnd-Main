@@ -4,6 +4,7 @@ import MiddleBar from './components/Top/MiddleBar';
 import NavBar from './components/Top/NavBar';
 import BottomFooter from './components/Footer/BottomFooter';
 import MainFooter from './components/Footer/MainFooter';
+import Login from './components/Login/Login';
 
 class Routes extends Component {
     state = {  }
@@ -13,9 +14,8 @@ class Routes extends Component {
         <TopBar/>
         <MiddleBar/>
         <NavBar/>
-        <h1 className="red">Routes Body
-        
-        </h1>
+        <h1>Routes Body(Routes.jsx)</h1>
+        <Login/>
         <MainFooter/>
         <BottomFooter/>
         </div>
